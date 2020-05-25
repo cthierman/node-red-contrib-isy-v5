@@ -1,0 +1,65 @@
+{
+  "_from": "node-red-contrib-isy-v5@1.1.0",
+  "_id": "node-red-contrib-isy-v5@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kaDrE5ryFUZoyXb0lxNIUNAjhRGUUCwDgNu8QkS2Tpqp6iPJBHsWtlQUz5BSP4LHZeJULnkcOP1Kn+inoVa5RQ==",
+  "_location": "/node-red-contrib-isy-v5",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-red-contrib-isy-v5@1.1.0",
+    "name": "node-red-contrib-isy-v5",
+    "escapedName": "node-red-contrib-isy-v5",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-isy/-/node-red-contrib-isy-v5-1.1.0.tgz",
+  "_shasum": "9eafd68e48dd50840c636261e5c93cdcda3cf8df",
+  "_spec": "node-red-contrib-isy-v5@1.1.0",
+  "_where": "/home/pi/.node-red",
+  "author": {
+    "name": "Brian Feeney"
+  },
+  "bugs": {
+    "url": "https://github.com/cthierman/node-red-contrib-isy-v5/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fast-deep-equal": "^1.0.0",
+    "faye-websocket": "^0.11.1",
+    "left-pad": "^1.2.0",
+    "restler": "^3.4.0",
+    "xmldoc": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "UDI ISY994i integration for Node-RED slightly modified for firmware v5",
+  "homepage": "https://github.com/fahrer16/node-red-contrib-isy#readme",
+  "keywords": [
+    "node-red",
+    "isy",
+    "udi"
+  ],
+  "license": "Apache 2.0",
+  "name": "node-red-contrib-isy-v5",
+  "node-red": {
+    "nodes": {
+      "isy-controller": "nodes/isy-nodes-controller.js",
+      "isy-websocket": "nodes/isy-nodes-websocket.js",
+      "isy-node": "nodes/isy-nodes-node.js",
+      "isy-scene": "nodes/isy-nodes-scene.js",
+      "isy-variable": "nodes/isy-nodes-variable.js",
+      "isy-program": "nodes/isy-nodes-program.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cthierman/node-red-contrib-isy-v5.git"
+  },
+  "version": "1.1.0"
+}
