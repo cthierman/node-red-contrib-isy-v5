@@ -1,4 +1,4 @@
-# node-red-contrib-isy
+# node-red-contrib-isy-v5
 UDI ISY994i integration for Node-RED
 
 This node requires a [UDI ISY 994i controller](https://www.universal-devices.com/).
@@ -13,4 +13,4 @@ This node requires a [UDI ISY 994i controller](https://www.universal-devices.com
 This project is in no way supported nor endorsed by UDI nor the author.  No warranty is provided for the software and if you choose to use it, you do so at you own risk.
 
 Version History:
-*1.0.0: Initial Release
+*1.1.0: Initial Release
